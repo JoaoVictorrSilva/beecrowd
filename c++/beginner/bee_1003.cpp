@@ -1,18 +1,17 @@
 #include <stdio.h>
 #include <iostream>
-#include <cmath>
-#include <iomanip>
 
 using namespace std;
 
 int main () {
 
-    double n = 3.14159;
-    double R = 0.0;
+    int A = 0;
+    int B = 0;
 
-    cin >> R;
+    cin >> A;
+    cin >> B;
 
-    cout << "A=" << fixed << setprecision(4) << n * pow(R, 2) << endl;
+    cout << "SOMA = " << A + B << endl;
 
     return 0;
 }
