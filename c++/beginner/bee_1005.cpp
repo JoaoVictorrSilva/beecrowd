@@ -17,3 +17,6 @@ int main () {
 
     return 0;
 }
+
+// fórmula média ponderada:
+// media_ponderada = (A * 3.5 + B * 7.5) / (3.5 + 7.5)
